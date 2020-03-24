@@ -1,0 +1,10 @@
+# Lê algo e testa o tipo primitivo "is."
+a = input ('Digite algo')
+print('O tipo promitivo é',type(a))
+print('Só tem espaços?',a.isspace())
+print('É numerico?',a.isnumeric())
+print('É alfabético',a.isalpha())
+print('É alfanumerico?',a.isalnum())
+print('Está em maiusculo?',a.isupper())
+print('Está em minusculo?',a.islower())
+print('Tem maiusculo e minusculo?',a.title()) 
